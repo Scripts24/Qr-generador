@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generador códigos QR</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-    
 
-    <script src="/js/main.js"></script>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador códigos QR</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <!--Estilos-->
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <h1>Generador de Código QR</h1>
+        </header>
+        <div class="form">
+            <input type="text" spellcheck="false" placeholder="Ingrese una URL o texto para crear un QR">
+            <button>Generador QR</button>
+        </div>
+        <div class="qr-code">
+            <img src="" alt="qr-code">
+
+            <button id="descarga">Descargar </button>
+
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
